@@ -1,0 +1,36 @@
+{
+    "config_name": "viejito",
+    "logging_level": 0,
+    "long": {
+        "auto_unstuck_ema_dist": 0,
+        "auto_unstuck_wallet_exposure_threshold": 0.0,
+        "ddown_factor": 0.6,
+        "ema_span_0": 1,
+        "ema_span_1": 1,
+        "enabled": true,
+        "initial_eprice_ema_dist": -1,
+        "initial_qty_pct": 0.01,
+        "markup_range": 0.004,
+        "min_markup": 0.002,
+        "n_close_orders": 7,
+        "rentry_pprice_dist": 0.004,
+        "rentry_pprice_dist_wallet_exposure_weighting": 8,
+        "wallet_exposure_limit": 0.2
+    },
+    "short": {
+        "auto_unstuck_ema_dist": 0,
+        "auto_unstuck_wallet_exposure_threshold": 0,
+        "ddown_factor": 0.6,
+        "ema_span_0": 1,
+        "ema_span_1": 1,
+        "enabled": true,
+        "initial_eprice_ema_dist": -1,
+        "initial_qty_pct": 0.01,
+        "markup_range": 0.004,
+        "min_markup": 0.002,
+        "n_close_orders": 7,
+        "rentry_pprice_dist": 0.004,
+        "rentry_pprice_dist_wallet_exposure_weighting": 8,
+        "wallet_exposure_limit": 0.2
+    }
+}
